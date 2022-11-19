@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motor Gate</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- start header -->
+  <header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="images/Motor Gate-03.png" alt="logo">
+      </a>
+      <nav>
+        <i class="fas fa-bars toggle-menu"></i>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li>
+            <a href="#Services">Sale <i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+              <ul>
+                  <li><a href="#">New</a></li>
+                  <li><a href="#">Used</a></li>
+              </ul>
+          </div>
+          </li>
+          <li>
+            <a href="#Portfolio">Buy <i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+              <ul>
+                  <li><a href="#">New</a></li>
+                  <li><a href="#">Used</a></li>
+              </ul>
+          </div>
+          </li>
+          <li><a href="#About">Rent</a></li>
+          <li><a href="#Pricing">Car News</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="C:\Motor Gate\signup.html">Sign Up</a></li>
+        </ul>
+        <!--  -->
+        <img src="images/user.png" class="user-pic" onclick="toggleMenu()" >
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/user.png">
+                    <h2>Your Profile</h2>
+                </div>
+                <hr>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/WhatsApp Image 2022-11-19 at 4.14.16 PM.jpeg">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/WhatsApp Image 2022-11-19 at 4.14.17 PM (1).jpeg">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/WhatsApp Image 2022-11-19 at 4.16.15 PM (1).jpeg">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/WhatsApp Image 2022-11-19 at 4.14.17 PM.jpeg">
+                    <p>logout</p>
+                    <span>></span>
+                </a>
+            </div> 
+            </div> 
+            </div> 
+            </div> 
+        </div>
+        <!-- <div class="form">
+          <i class="fas fa-search"></i>
+        </div> -->
+      </nav>
+    </div>
+  </header>
+  <!-- end Header  -->
+  <!-- start Landing -->
+  <div class="landing">
+    <div class="overlay">
+      <div class="video">
+        <video autoplay muted loop>
+        <source src="images/pexels-taryn-elliott-5309381.mp4" type="video/mp4"/>
+      </video>
+    </div>
+    </div>
+  </div>
+  <!-- end landing -->
+  <!-- Start Services -->
+  <div class="services" id="Services">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Services</h2>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+          tincidunt.
+        </p>
+      </div>
+      <div class="services-container">
+        <div class="srv-box">
+          <i class="fas fa-desktop fa-3x"></i>
+          <div class="text">
+            <h3>New Car</h3>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+        <div class="srv-box">
+          <i class="fas fa-cog fa-3x"></i>
+          <div class="text">
+            <h3>Used Car</h3>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+        <div class="srv-box">
+          <i class="fas fa-pencil-ruler fa-3x"></i>
+          <div class="text">
+            <h3>Rent Car</h3>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+        <div class="srv-box">
+          <i class="fas fa-camera fa-3x"></i>
+          <div class="text">
+            <h3>Car News</h3>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Services -->
+  <!-- Start News -->
+  <!-- <section>
+    <div class="news">
+      <div class="container">
+        <div class="main-heading">
+          <section class="news" id="News">
+            <h2 class="tittle">News</h2>
+          <div class="content">
+              <div class="card">
+                      <img class="news-img" src="image/bmw x5.jpg">
+                  <div class="news-info">
+                      <p class="news-p">
+                        BMW at the top                        </p>
+                      <strong class="news-tittle">
+                          <span>Bmw X5</span>
+                          <a href="#" class="more-details">More Details</a>
+                      </strong>
+                  </div>
+              </div>
+          </div> 
+          <div class="content">
+            <div class="card">
+                    <img class="news-img" src="image/chevorelt.jpg">
+                <div class="news-info">
+                    <p class="news-p">
+                    chevorelt News</p>
+                    <strong class="news-tittle">
+                        <span>chevorelt Camaro</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="card">
+                    <img class="news-img" src="image/marcedes.jpg">
+                <div class="news-info">
+                    <p class="news-p">
+                    marcedes at the top                        </p>
+                    <strong class="news-tittle">
+                        <span>marcedes c300</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+            </div>
+        </div> 
+        </section>
+        </div>
+      </div>
+    </div>
+</section> -->
+  <!-- End News -->
+  <!-- start car sec -->
+  <section class="cars" id="cars">
+    <div class="heading">
+        <h2>Car news</h2>
+    </div>
+    <!-- cars container -->
+    <div class="cars-container container">
+        <!-- box 1 -->
+        <div class="box">
+            <img src="images/car1.jpg" alt="">
+            <h2>porche car</h2>
+        </div>
+        <!-- box 2 -->
+        <div class="box">
+            <img src="images/car2.jpg" alt="">
+            <h2>Toyota car</h2>
+        </div>
+        <!-- box 3 -->
+        <div class="box">
+            <img src="images/car3.jpg" alt="">
+            <h2>Kia car</h2>
+        </div>
+        <!-- box 4 -->
+        <div class="box">
+            <img src="images/car4.jpg" alt="">
+            <h2>Jeep car</h2>
+        </div>
+        <!-- box 5 -->
+        <div class="box">
+            <img src="images/car5.jpg" alt="">
+            <h2>Audi car</h2>
+        </div>
+        <!-- box 6 -->
+        <div class="box">
+            <img src="images/car6.jpg" alt="">
+            <h2>NISSAN car</h2>
+        </div>
+    </div>
+</section>
+  <!-- end car sec -->
+  <!-- start Conact -->
+  <div class="contact" id="Contact">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Contact Us</h2>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+          tincidunt.
+        </p>
+      </div>
+      <div class="content">
+        <form action="">
+          <input class="main-input" type="text" name="name" placeholder="Your Name">
+          <input class="main-input" type="email" name="mail" placeholder="Your Email">
+          <textarea class="main-input" name="message"  placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+        <div class="info">
+          <h4>Get In Touch</h4>
+          <span class="phone">+00 114.548.4026</span>
+          <span class="phone">+00 114.548.4026</span>
+          <h4>Where We Are</h4>
+          <address>Awesome Address 46<br />Shoubra elhima, NYC<br />123-4567-890<br />EGP</address>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Conact -->
+  <!-- Start Footer -->
+  <div class="footer">
+    <div class="container">
+      <img src="images/Motor Gate-03.png" alt="logo">
+      <p class="fot">We Are Social</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p class="copyright">&copy; 2022 <span>MOTOR</span> All Right Reserved</p>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <script src="main.js"></script>
+</body>
+</html>
