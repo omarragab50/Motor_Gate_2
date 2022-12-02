@@ -574,7 +574,7 @@ color: #601cfc;
 }
 /* End Contact */
 /* Start sign Up */
-body {
+/* body {
    background-color: #333;
    font-family: 'Roboto', sans-serif;
 }
@@ -638,10 +638,10 @@ input[type="submit"]:active {
 .para-2 a {
    color: red;
    font-size: 18px;
-}
+} */
 /* End sign Up  */
 /* Start login */
-.login-box {
+/* .login-box {
    width: 360px;
    height: 280px;
    margin: auto;
@@ -682,7 +682,7 @@ input[type="submit"]:active {
    color: #49c1a2;
    font-size: 18px;
    color: red;
-}
+} */
 /* End login */
 /* Start Footer */
 .footer {
@@ -732,9 +732,24 @@ input[type="submit"]:active {
    color: red;
 }
 /* End Footer */
-
-
-
+/* buttom up */
+.up {
+   position: fixed;
+   bottom: 30px;
+   right: -50px;
+   background-color: #ff5722;
+   color: white;
+   font-weight: bold;
+   font-size: 30px;
+   padding: 5px;
+   border-radius: 4px;
+   font-family: Arial, Tahoma;
+   cursor: pointer;
+   transition: 0.2s;
+}
+.up.show {
+   right: 10px;
+}
 
 
 
