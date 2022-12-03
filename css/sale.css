@@ -89,7 +89,7 @@ ul {
 /* End components */
 /* Start header */
 header {
-   position: absolute;
+   /* position: absolute; */
    left: 0;
    width: 100%;
    z-index: 2;
@@ -304,3 +304,5 @@ header nav .form i {
       float: right;
       margin: 10px 18.2% 0 0 ;
    }
+
+   
