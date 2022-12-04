@@ -88,9 +88,122 @@
   <div class="sale">
     <div class="container">
       <form>
-        <h2>Enter Your Car Information</h2>
-        <label>email</label>
-        <input type="email">
+        <h2 class="regform">Enter Your Car Information</h2>
+        <label for="What is The brand">Car information:</label>
+        <select name="" id="car" class="car">
+          <option value="1">What is The brand?</option>
+          <option value="2">Hyundai</option>
+          <option value="3">Chevrolet</option>
+          <option value="4">Toyota</option>
+          <option value="5">Mitsubishi</option>
+          <option value="6">Nissan</option>
+          <option value="7">Mercedes-Benz</option>
+          <option value="8">BMW</option>
+          <option value="9">MG</option>
+          <option value="10">Renoult</option>
+          <option value="11">Jeep</option>
+          <option value="12">Lexas</option>
+          <option value="13">Haval</option>
+          <option value="14">Audi</option>
+          <option value="15">Fiat</option>
+          <option value="16">Ford</option>
+          <option value="17">Honda</option>
+          <option value="18">Mini</option>
+          <option value="19">Skoda</option>
+        </select>
+        
+        <div>
+          <label>Exterior Color</label>
+          <select name="" id="color" class="color">
+            <option value="1">What color is your car</option>
+            <option value="2">Black</option>
+            <option value="3">Red</option>
+            <option value="4">Blue</option>
+            <option value="5">Yellow</option>
+            <option value="6">Bronze</option>
+            <option value="7">Brown</option>
+            <option value="8">Gold</option>
+            <option value="9">Gray</option>
+            <option value="10">Green</option>
+            <option value="11">Orange</option>
+            <option value="12">Pink</option>
+            <option value="13">Purple</option>
+            <option value="14">Red</option>
+            <option value="15">Silver</option>
+            <option value="16">White</option>
+            <option value="17">Tan</option>
+            <option value="18">Teal</option>
+            <option value="20">Other</option>
+          </select>
+        </div>
+        <div>
+          <label>Car Condition</label>
+          <select name="" id="con" class="con">
+            <option value="1">What is Condition Of Your Car</option>
+            <option value="2">NEW</option>
+            <option value="3">USED</option>
+          </select>
+        </div>
+        <div>
+          <label>City</label>
+          <select name="" id="cite" class="city">
+            <option value="1">What is cite is your car</option>
+            <option value="2">cairo</option>
+            <option value="3">Giza</option>
+            <option value="4">Shoubra</option>
+            <option value="5">Helwan</option>
+            <option value="6">Bolak</option>
+            <option value="7">Maady</option>
+            <option value="8">10th of Ramadan</option>
+            <option value="9">Almaza</option>
+            <option value="10">El Nozha</option>
+            <option value="11">ismailia</option>
+            <option value="12">Masara</option>
+            <option value="13">Nasr City</option>
+            <option value="14">Obour City</option>
+            <option value="15">Tanta</option>
+            <option value="16">Alex</option>
+            <option value="17">Mansoura</option>
+            <option value="18">Other</option>
+          </select>
+        </div>
+        <div>
+          <label>Price car</label>
+          <input class="price" type="number" placeholder="What is your price car">
+        </div>
+        <div>
+          <label>Kilometers Driven</label>
+          <input class="kilo" type="number" placeholder="What is your price car">
+        </div>
+        <div>
+          <label>Transmission</label>
+          <select name="" id="con" class="trans">
+            <option value="1">select</option>
+            <option value="2">Auto</option>
+            <option value="3">Manual</option>
+          </select>
+        </div>
+        <div>
+          <label>Foul</label>
+          <select name="" id="con" class="foul">
+            <option value="1">gas</option>
+            <option value="2">Deseil</option>
+            <option value="3">Electric</option>
+          </select>
+        </div>
+        <div>
+          <label>phone</label>
+          <input class="phone" type="text" placeholder="Phone number">
+        </div>
+        <div>
+          <label>Additional Comments</label>
+          <textarea class="main-input" name="message"  placeholder="Your Message"></textarea>
+        </div>
+        <div>
+          <label for="picture_image" data-role="button">upload img</label>
+          <input class="file" type="file">
+        </div>
+        <input class="save" type="submit" value="save">
       </form>
     </div>
   </div>

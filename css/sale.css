@@ -16,6 +16,9 @@ html {
 }
 body {
    font-family: 'Open Sans', sans-serif;
+   background-image: url(../images/pexels-ryan-west-1719648.jpg);
+   background-position: center;
+   background-size: cover;
 }
 ul {
    list-style: none;
@@ -304,5 +307,155 @@ header nav .form i {
       float: right;
       margin: 10px 18.2% 0 0 ;
    }
-
-   
+   .sale .container {
+      padding-top: 100px;
+   }
+   form {
+      border: 1px solid #ccc;
+      padding-left: 30px;
+      height: 800px;
+      background-color: rgb(0, 0, 0, 0.4);
+      border-radius: 15px 15px 0 0;
+   }
+   form h2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+   }
+   form label {
+      font-size: 20px;
+      line-height: 50px;
+      
+   }
+   form select {
+      width: 200px;
+      height: 35px;
+      
+   }
+   .container .car {
+      position: relative;
+      left: 50px;
+      line-height: 40px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .color, .con {
+      position: relative;
+      left: 74px;
+      line-height: 40px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .city {
+      position: relative;
+      left: 167px;
+      line-height: 40px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .price {
+      position: relative;
+      left: 122px;
+      line-height: 35px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .kilo {
+      position: relative;
+      left: 37px;
+      line-height: 35px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .trans {
+      position: relative;
+      left: 80px;
+      line-height: 40px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .foul {
+      position: relative;
+      left: 165px;
+      line-height: 40px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .phone {
+      position: relative;
+      left: 145px;
+      line-height: 34px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   label {
+      color: #D2D79F;
+   }
+   .container .main-input {
+      position: relative;
+      left: 50px;
+      line-height: 34px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      bottom: -20px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .file {
+      position: relative;
+      left: 145px;
+      line-height: 34px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
+   .container .save {
+      position: relative;
+      left: 50px;
+      line-height: 34px;
+      width: 100px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 20px;
+      bottom: -20px;
+      color: white;
+      background-color: #990000;
+      cursor: pointer;
+   }
