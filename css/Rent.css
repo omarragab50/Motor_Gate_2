@@ -344,7 +344,7 @@ header nav .form i {
       color: #90B77D;
       background-color: #06283D;
    }
-   .container .color, .con {
+   .container .color {
       position: relative;
       left: 74px;
       line-height: 40px;
@@ -355,9 +355,20 @@ header nav .form i {
       color: #90B77D;
       background-color: #06283D;
    }
+   .container .con {
+      position: relative;
+      left: 53px;
+      line-height: 40px;
+      width: 280px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #90B77D;
+      background-color: #06283D;
+   }
    .container .city {
       position: relative;
-      left: 167px;
+      left: 170px;
       line-height: 40px;
       width: 280px;
       border-radius: 6px;
@@ -368,7 +379,7 @@ header nav .form i {
    }
    .container .price {
       position: relative;
-      left: 122px;
+      left: 72px;
       line-height: 35px;
       width: 280px;
       border-radius: 6px;
@@ -379,7 +390,7 @@ header nav .form i {
    }
    .container .kilo {
       position: relative;
-      left: 37px;
+      left: 79px;
       line-height: 35px;
       width: 280px;
       border-radius: 6px;
