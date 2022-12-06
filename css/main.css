@@ -115,6 +115,8 @@ header nav {
 header nav .toggle-menu {
    color: white;
    font-size: 22px;
+   margin-right: 22px;
+
 }
 @media (min-width: 768px) {
    header nav .toggle-menu{
@@ -174,7 +176,8 @@ header nav .form i {
 /* ul dropdown */
 .container ul {
    list-style: none;
-   display: flex;
+   /* display: flex; */
+   /* display:none; */
 }
 
 .container ul li {
