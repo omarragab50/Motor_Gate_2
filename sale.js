@@ -1,3 +1,8 @@
+// 
+let subMenu = document.getElementById("subMenu");
+function toggleMenu () {
+    subMenu.classList.toggle("open-menu");
+}
 //selecting all required elements
 const dropArea = document.querySelector(".drag-area"),
 dragText = dropArea.querySelector("header"),
