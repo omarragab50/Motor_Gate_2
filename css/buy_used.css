@@ -190,6 +190,8 @@ header nav .form i {
 
 .dropdown {
    display: none;
+   background-color: #525252;
+
 }
 
 .container ul li:hover .dropdown {
