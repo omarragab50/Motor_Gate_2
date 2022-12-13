@@ -16,6 +16,7 @@ html {
 }
 body {
    font-family: 'Open Sans', sans-serif;
+   background-color: #3b2525;
 
 }
 ul {
@@ -321,7 +322,7 @@ header nav .form i {
 }
 
 .card {
-      background-color: #fff;
+      background-color: #967474;
       min-height: 14em;
       /* width:20em; */
       width: 500px;
@@ -373,7 +374,7 @@ text-decoration: none;
 
 button {
       border: 1px;
-      background-color: #3a6cf4;
+      background-color: #051c58;
       color: white;
       height: 30px;
       width: 100px;
