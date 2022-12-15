@@ -4,8 +4,8 @@ session_start();
 $error = "";
 if (array_key_exists("signUp", $_POST)) {
  
-     // Database Link
-    include('motorgate.php');  
+     // connect
+    include('connect.php');  
  
     //Taking HTML Form Data from User
     $name = mysqli_real_escape_string($motorgate, $_POST['name']);
