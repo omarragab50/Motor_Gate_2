@@ -11,7 +11,7 @@ if (array_key_exists("signUp", $_POST)) {
     $name = mysqli_real_escape_string($motorgate, $_POST['name']);
     $email = mysqli_real_escape_string($motorgate, $_POST['email']);
     $password = mysqli_real_escape_string($motorgate,  $_POST['password']); 
-    $repeatPassword = mysqli_real_escape_string($motorgate,  $_POST['repeatPassword']); 
+    $confirmpassword = mysqli_real_escape_string($motorgate,  $_POST['confirmpassword']); 
      
     // PHP form validation PHP code
     if (!$name) {
@@ -23,7 +23,7 @@ if (array_key_exists("signUp", $_POST)) {
     if (!$password) {
         $error .= "Password is required <br>";
      } 
-     if ($password !== $repeatPassword) {
+     if ($password !== $confirmpassword) {
         $error .= "Password does not match <br>";
      }
      if ($error) {
