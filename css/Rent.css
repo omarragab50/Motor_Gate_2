@@ -314,7 +314,7 @@ header nav .form i {
    form {
       border: 1px solid #ccc;
       padding-left: 30px;
-      height: 900px;
+      height: 800px;
       background-color: rgb(0, 0, 0, 0.4);
       border-radius: 15px 15px 15px 15px;
    }
@@ -343,6 +343,7 @@ header nav .form i {
       font-size: 16px;
       color: #90B77D;
       background-color: #06283D;
+      margin-left: 65px;
    }
    .container .color {
       position: relative;

@@ -89,8 +89,8 @@
     <div class="container">
       <form>
         <h2 class="regform">Enter Your Car Information</h2>
-        <label for="What is The brand">Car Information:</label>
-        <select name="" id="car" class="car">
+        <label for="What is The brand">Car Type:</label>
+        <select name="" id="car" class="car" >
           <option value="1">What is The brand?</option>
           <option value="2">Hyundai</option>
           <option value="3">Chevrolet</option>
@@ -114,7 +114,7 @@
         
         <div>
           <label>Exterior Color</label>
-          <select name="" id="color" class="color">
+          <select name="" id="color" class="color" required>
             <option value="1">What color is your car</option>
             <option value="2">Black</option>
             <option value="3">Red</option>
@@ -138,16 +138,16 @@
         </div>
         <div>
           <label>Car Condition</label>
-          <select name="" id="con" class="con">
-            <option value="1">What is Condition Of Your Car</option>
+          <select name="" id="con" class="con" required>
+            <option value="1"> Condition Of Your Car</option>
             <option value="2">NEW</option>
             <option value="3">USED</option>
           </select>
         </div>
         <div>
           <label>City</label>
-          <select name="" id="cite" class="city">
-            <option value="1">What is cite is your car</option>
+          <select name="" id="cite" class="city" required>
+            <option value="1">Choose Your City</option>
             <option value="2">cairo</option>
             <option value="3">Giza</option>
             <option value="4">Shoubra</option>
@@ -169,11 +169,11 @@
         </div>
         <div>
           <label>Price car</label>
-          <input class="price" type="number" placeholder="What is your price car">
+          <input class="price" type="text" placeholder="What is your price car" required>
         </div>
         <div>
           <label>Kilometers Driven</label>
-          <input class="kilo" type="number" placeholder="What is your price car">
+          <input class="kilo" type="text" placeholder="How Many KM" required>
         </div>
         <div>
           <label>Transmission</label>
@@ -185,7 +185,7 @@
         </div>
         <div>
           <label>Foul</label>
-          <select name="" id="con" class="foul">
+          <select name="" id="con" class="foul" required>
             <option value="1">gas</option>
             <option value="2">Deseil</option>
             <option value="3">Electric</option>
@@ -193,7 +193,7 @@
         </div>
         <div>
           <label>phone</label>
-          <input class="phone" type="text" placeholder="Phone number">
+          <input class="phone" type="text" placeholder="Phone number" maxlength="11" minlength="10" required>
         </div>
         <div>
           <label>Additional Comments</label>
