@@ -1,0 +1,361 @@
+:root {
+   --main-color: #19c8fa;
+   --transparent-color: rgb(15 116 143 / 70%);
+   --section-padding: 100px;
+}
+/* start Global Rules */
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+html {
+   scroll-behavior: smooth;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   /* background-image: url(../images/pexels-ryan-west-1719648.jpg);
+   background-position: center;
+   background-size: cover; */
+}
+ul {
+   list-style: none;
+}
+.container {
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+/* small screen */
+@media (min-width: 768px) {
+   .container{
+      width: 750px;
+   }
+}
+/* medium screen */
+@media (min-width: 992px) {
+   .container{
+      width: 970px;
+   }
+}
+/* Large screen */
+@media (min-width: 1200px) {
+   .container{
+      width: 1170px;
+   }
+}
+/* End Global Rules */
+/* Start components  */
+.main-heading {
+   text-align: center;
+}
+.main-heading h2 {
+   font-weight: normal;
+   font-size: 40px;
+   position: relative;
+   margin-bottom: 70px;
+   text-transform: uppercase;
+}
+.main-heading h2::before {
+   content: '';
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   height: 2px;
+   background-color: #333;
+   bottom: -30px;
+   width: 120px;
+}
+.main-heading h2::after {
+   content: '';
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 14px;
+   height: 14px;
+   border-radius: 50%;
+   border: 2px solid #333;
+   bottom: -38px;
+   background-color: white;
+}
+.main-heading p {
+   width: 550px;
+   margin: 0 auto 100px;
+   max-width: 100%;
+   line-height: 2;
+   color: #777;
+}
+/* End components */
+/* Start header */
+header {
+   /* position: absolute; */
+   left: 0;
+   width: 100%;
+   z-index: 2;
+   background-color: #333;
+}
+header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   min-height: 97px;
+}
+header .logo img {
+   height: 120px;
+}
+header nav {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   
+}
+header nav .toggle-menu {
+   color: white;
+   font-size: 22px;
+}
+@media (min-width: 768px) {
+   header nav .toggle-menu{
+      display: none;
+   }
+}
+header nav ul {
+   display: flex;
+}
+@media (max-width: 767px) {
+   header nav ul{
+      display: none;
+   }
+   header nav .toggle-menu:hover + ul{
+      display: flex;  
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: rgb(0 0 0 / 50%);
+   }
+   header nav .toggle-menu:hover + ul li a {
+      padding: 15px;
+   }
+}
+header nav ul li a {
+   display: block;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   transition: 0.3s;
+   padding: 40px 10px;
+   position: relative;
+   z-index: 2;
+   text-transform: uppercase;
+}
+header nav ul li a.active, 
+header nav ul li a:hover {
+   color: red;
+}
+header nav .form {
+   width: 40px;
+   height: 30px;
+   position: relative;
+   margin-left: 30px;
+   border-left: 1px solid red;
+}
+header nav .form i {
+   color: white;
+   position: absolute;
+   font-size: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 0;
+}
+/* ul dropdown */
+.container ul {
+   list-style: none;
+   display: flex;
+}
+
+.container ul li {
+   position: relative;
+}
+
+.container ul li a:hover {
+   color: red;
+   transform: scale(1.1);
+   transition: 0.6s;
+}
+
+.dropdown {
+   display: none;
+}
+
+.container ul li:hover .dropdown {
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 65%;
+   
+}
+
+.dropdown ul {
+   display: block;
+}
+
+.dropdown ul li {
+   width: 90px;
+   padding: 10px;
+   height: 90px;
+   margin-top: -35px;
+}
+
+.container ul li ul li:hover .dropdown {
+   display: block;
+}
+
+/*  */
+.user-pic {
+   width: 60px;
+}
+
+.sub-menu-wrap {
+   position: absolute ;
+   top: 100%;
+   right: 10%;
+   width: 320px;
+   max-height: 0px;
+   overflow: hidden;
+   transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu{
+   max-height: 400px;
+}
+
+.sub-menu {
+   background: #fff;
+   padding: 20px;
+   margin: 10px;
+   }
+
+   .user-info {
+      display: flex;
+      align-items: center;
+   }
+   
+   .user-info h2 {
+      font-weight: 500;
+   }
+   
+   .user-info img {
+      width: 40px;
+      border-radius: 50%;
+      margin-right: 15px;
+   }
+   
+   .sub-menu hr {
+      border: 0;
+      height: 1px;
+      width: 100%;
+      background: #ccc;
+      margin: 15px 0 10px;
+   }
+   
+   .sub-menu-link img {
+      width: 50px;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 15px;
+      background: #ccc;
+   }
+   
+   .sub-menu-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #525252;
+      margin: 12px 0;
+   }
+
+   .sub-menu-link p {
+      width: 100%;
+   }
+   
+   .sub-menu-link span {
+      font-size: 22px;
+      transition: 0.5s;
+   }
+   
+   .sub-menu-link:hover span {
+      transform: translateX(5px);
+   }
+   
+   .sub-menu-link:hover p {
+      font-weight: 600;
+   }
+   
+   .cancel {
+      float: left;
+      margin: 10px 0 0 18.2%;
+   }
+   
+   .done {
+      float: right;
+      margin: 10px 18.2% 0 0 ;
+   }
+/* start car sec */
+.cars {
+   background-color: #3b2525;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+.heading {
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   color: red;
+   text-transform: uppercase;
+}
+.cars-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin-top: 2rem;
+}
+.cars-container .box {
+   flex: 1 1 17rem;
+   position: relative;
+   height: 300px;
+   border-radius: 0.5rem;
+   overflow: hidden;
+}
+.cars-container .box img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   overflow: hidden;
+}
+.cars-container .box img:hover {
+   transform: scale(1.1);
+   transition: 0.5s;
+}
+.cars-container .box h2 {
+   position: absolute;
+   bottom: 1rem;
+   left: 1rem;
+   font-weight: 400;
+   font-size: 1rem;
+   background: red;
+   color: white;
+   padding: 8px;
+   border-radius: 00.5rem;
+}
+.cars-container .box:hover h2 {
+   background: var(--main-color);
+   color: var(--bg-color);
+}
+/* end car sec */
