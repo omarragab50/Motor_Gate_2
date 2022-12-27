@@ -525,3 +525,11 @@ header nav .form i {
       object-fit: cover;
       border-radius: 5px;
    }
+
+   @media (max-width: 767px) {
+      .sale .container form {
+         width: 600px;
+         height: 800px;
+         margin-left: 60px;
+      }
+   }
