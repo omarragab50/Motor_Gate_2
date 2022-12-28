@@ -526,10 +526,46 @@ header nav .form i {
       border-radius: 5px;
    }
 
+
    @media (max-width: 767px) {
       .sale .container form {
          width: 600px;
          height: 800px;
-         margin-left: 60px;
+      }
+      .container .car {
+         left: -40px;
+      }
+      .container .color {
+         left: -10px;
+      }
+      .container .con {
+         left: -10px;
+      }
+      .container .city {
+         left: 70px;
+      }
+      .container .price {
+         left: 10px;
+      }
+      .container .kilo {
+         left: 10px;
+      }
+      .container .trans {
+         left: 3px;
+      }
+      .container .foul {
+         left: 20px;
+      }
+      .container .phone {
+         left: 20px;
+      }
+      .container .file {
+         left: 10px;
+      }
+      .container .main-input {
+         left: 1px;
+      }
+      form h2 {
+         text-align: left;
       }
    }

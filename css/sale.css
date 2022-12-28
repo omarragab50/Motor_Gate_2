@@ -520,6 +520,41 @@ header nav .form i {
       .sale .container form {
          width: 600px;
          height: 760px;
-         margin-left: 60px;
+      }
+      .container .car {
+         left: -40px;
+      }
+      .container .color {
+         left: -10px;
+      }
+      .container .con {
+         left: -10px;
+      }
+      .container .city {
+         left: 70px;
+      }
+      .container .price {
+         left: 40px;
+      }
+      .container .kilo {
+         left: -60px;
+      }
+      .container .trans {
+         left: 3px;
+      }
+      .container .foul {
+         left: 20px;
+      }
+      .container .phone {
+         left: 20px;
+      }
+      .container .file {
+         left: 10px;
+      }
+      .container .main-input {
+         left: 1px;
+      }
+      form h2 {
+         text-align: left;
       }
    }
