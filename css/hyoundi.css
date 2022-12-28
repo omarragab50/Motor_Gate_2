@@ -373,3 +373,23 @@
     padding-top: 5%;
  
  }
+
+ @media (max-width: 767px) {
+   .audi .container form {
+      height: 800px;
+   }
+   .audi .container form img {
+      height: 200px;
+      width: 300px;
+   }
+}
+
+@media (max-width: 1199px) {
+   .audi .container form {
+      height: 800px;
+   }
+   .audi .container form img {
+      height: 200px;
+      width: 300px;
+   }
+}
